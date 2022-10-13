@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import axios from 'axios';
 const API_URL ="https://api.openweathermap.org/data/2.5/weather?"
 const ICON_URL ="https://api.openweathermap.org/img/wn/"
-const API_KEY ='ff74358d895161250120669f22c6b066';
+const API_KEY ='';
 function App() {
   const [latitude, setLatitude] = useState(0)
   const [longitude, setLongitude] = useState(0)
